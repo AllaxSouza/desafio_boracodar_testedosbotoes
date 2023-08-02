@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Roboto&display=swap" rel="stylesheet">
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teste os botões</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+
+  <div id="app">
+    <h1>Teste os botões</h1>
+    <p>Dentro de um layout, botões servem para destacar ações importantes a serem tomadas. Acompanhe abaixo um exemplo de tipos e propriedades. <br>
+      Interaja com os botões e observe a mudança de aparência e de cursores.</p>
+  </div>
+  <div id="buttons">
+  <div id="primary">
+  <button class="primary">DEFAULT primary</button>
+  <button class="primary" disabled>disabled</button>
+  <button class="primary loading" onclick="loading(event)">
+    <i class="ph ph-circle-notch"></i>
+    loading primary</button>
+
+    <button class="primary movable">
+      <i class="ph ph-list"></i>
+      movable primary</button>
+    </div>
+    <div id="secundary">
+      <button class="secundary">DEFAULT secundary</button>
+      <button class="secundary" disabled>disabled</button>
+      <button class="secundary loading" >
+        <i id="circle" class="ph ph-circle-notch" ></i>
+        loading secundary</button>
+    
+        <button class="secundary movable">
+          <i class="ph ph-list"></i>
+          movable secundary</button>
+        </div>
+        <div id="tertiary">
+          <button class="tertiary">DEFAULT tertiary</button>
+          <button class="tertiary" disabled>disabled</button>
+          <button class="tertiary loading">
+            <i class="ph ph-circle-notch"></i>
+            loading tertiary</button>
+        
+            <button class="tertiary movable">
+              <i class="ph ph-list"></i>
+              movable tertiary</button>
+            </div>
+          </div> 
+          <!-- <script>
+            function loading(event){
+              const button = event.currentTarget
+              button.classList.add('loading')
+              const text = button.TextContent
+              button.innerHTML = `
+              <i id="circle" class="ph ph-circle-notch" ></i>
+              ${text}
+              `
+
+            }
+          </script>
+           -->
+</body>
+</html>
