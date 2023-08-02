@@ -4,7 +4,7 @@
 
 ## 🖥️ Projeto
 Esse é um projeto web no desafio do hora de codar, onde feito uma pagina web demonstrando os tipos e as diversas propriedades dos botões,
-onde você pode interajir com os botões e observear a mudança de aparência e de cursores.
+onde você pode interagir com os botões e observar a mudança de aparência e de cursores.
 
 ## 🚀 Tecnologias
 Esse projeto foi desenvolvido durante o desafio #boracodar da Rocketsat com as seguintes tecnologias:
